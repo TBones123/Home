@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--<script>-->
+<!--function showMessage(a) {-->
+<!--if (a == 0) {-->
+<!--console.log("Virno");-->
+<!--} else {-->
+<!--console.log("ne verno");-->
+<!--}-->
+<!--}-->
+
+<!--showMessage(0)-->
+<!--</script>-->
+<!--<script>-->
+<!--function showSeason(m) {-->
+<!--if (m >= 0 & m <= 15) {-->
+<!--console.log("persha")-->
+<!--} else if (m >= 16 & m <= 30) {-->
+<!--console.log("druga")-->
+<!--} else if (m >= 31 & m <= 45) {-->
+<!--console.log("trete")-->
+<!--} else if (m >= 46 & m <= 60) {-->
+<!--console.log("chetverte")-->
+<!--}-->
+<!--}-->
+
+<!--showSeason(44)-->
+<!--</script>-->
+<!--<script>-->
+<!--function showEquality(a, b) {-->
+<!--if (a <= 1 & b >= 3) {-->
+<!--console.log(a + b)-->
+<!--} else {-->
+<!--console.log(a - b);-->
+<!--}-->
+<!--}-->
+
+<!--showEquality(3, 5)-->
+<!--</script>-->
+
+<!--<script>-->
+<!--function showPeriod(m) {-->
+<!--if (m >= 0 & m <= 3) {-->
+<!--console.log("zima")-->
+<!--} else if (m >= 4 & m <= 6) {-->
+<!--console.log("vesna")-->
+<!--} else if (m >= 7 & m <= 9) {-->
+<!--console.log("leto")-->
+<!--} else if (m >= 10 & m <= 12) {-->
+<!--console.log("Osen")-->
+<!--}-->
+<!--}-->
+
+<!--showPeriod(5)-->
+<!--</script>-->
+<!--<script>-->
+<!--var num = prompt("Введите сезон?")-->
+<!--switch (num) {-->
+<!--case '1':-->
+<!--console.log( 'зима' );-->
+<!--break;-->
+<!--case '2':-->
+<!--console.log( 'Лето' );-->
+<!--break;-->
+<!--case '3':-->
+<!--console.log( 'Весна' );-->
+<!--break;-->
+<!--case '4':-->
+<!--console.log( 'Осень' );-->
+<!--break;-->
+<!--default:-->
+<!--alert( 'Я такого сезона не знаю' );-->
+<!--}-->
+<!--</script>-->
+
+<!--<script>-->
+<!--var num = prompt("Какого цвета светофор?(Зеленый,Желтый,Красный,Аварийный)");-->
+<!--var isRoadClear = confirm('дорога чистая?');-->
+
+<!--switch (num) {-->
+<!--case "Зеленый":-->
+<!--alert( isRoadClear ? "иди" : "подожди пока нарушители проедут" );-->
+<!--break;-->
+<!--case "Желтый":-->
+<!--alert( isRoadClear ? "все рано жди" : "жди" );-->
+<!--break;-->
+<!--case "Красный":-->
+<!--alert( isRoadClear ? "стой и жди" : "стой все рано" );-->
+<!--break;-->
+<!--case "Аварийный":-->
+<!--alert('делай что хочешь');-->
+<!--break;-->
+<!--default:-->
+<!--alert('Я такого цвета не знаю');-->
+<!--}-->
+
+<!--Number.prototype.reverse = function(){-->
+<!--var x = '';-->
+<!--var num = parseInt(this);-->
+<!--while(num>0){-->
+<!--x = x + (num%10);-->
+<!--num = parseInt(num/10);-->
+<!--}-->
+<!--return parseInt(x);-->
+<!--}-->
+<!--</script>-->
+<script>
+    // var massiv = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
+    // // ----->
+    // for (var i = 0; i < massiv.length; i++) {
+    //     var obj = massiv[i];
+    //     console.log(obj);
+    // }
+    // ----->
+    // var i = 0;
+    // while (i < massiv.length) {
+    //     console.log(massiv[i])
+    //     i++;
+    // }
+    // ----->
+    // var i = 0;
+    // while (i < massiv.length){
+    //
+    //     if ((i%2)==0){
+    //         console.log(massiv[i]);
+    //     }
+    //     i++;
+    // }
+    // ----->
+    // var i=0;
+    // for (var i = 0; i < massiv.length; i++) {
+    //     if ((i%2)==1){
+    //         console.log(i);
+    //     }
+    // }
+    // ----->
+    // var i = 0;
+    // while (i < massiv.length){
+    //
+    //     if ((i%2)==0){
+    //         console.log(i);
+    //     }
+    //     i++;
+    // }
+    // ----->
+    // for (var i = 0; i < massiv.length; i++) {
+    //     if ((i%3)==0){
+    //         massiv[i]= 'aaaa';
+    //     }
+    //     console.log(massiv[i]);
+    // }
+    // ----->
+</script>
+<!--<script>-->
+<!--var arr = [];-->
+<!--for (var i = 0; i < 3; i++) {-->
+<!--let takeNumber = prompt('введитие числе');-->
+<!--arr.push(takeNumber);-->
+<!--arr.sort()-->
+
+<!--}-->
+<!--console.log(arr)-->
+<!--</script>-->
+<!--<script>-->
+<!--var arr = [];-->
+<!--for (var i = 0; i < 50; i++) {-->
+<!--arr[i] = Math.floor(Math.random() * (100 - 20));-->
+<!--if ((arr[i] % 2) == 0) {-->
+<!--i&#45;&#45;-->
+<!--}-->
+<!--}-->
+<!--console.log(arr);-->
+<!--</script>-->
+<!--<script>-->
+<!--var arr = [];-->
+<!--for (var i = 0; i < 50; i++) {-->
+<!--arr[i] = Math.floor(Math.random() * (100 - 20));-->
+<!--if ((arr[i] % 2) != 0) {-->
+<!--i&#45;&#45;-->
+<!--}-->
+<!--}-->
+<!--console.log(arr);-->
+<!--</script>-->
+<!--<script>-->
+<!--function makeArray() {-->
+<!--var arr=[];-->
+<!--for (var i = 0; i < 10; i++) {-->
+<!--arr[i] = Math.floor(Math.random() * (100 - 20));-->
+<!--console.log(arr[i]);-->
+<!--}-->
+<!--}-->
+<!--makeArray();-->
+<!--<script>-->
+<script>
+    // function makeArray() {
+    //     var arr = [];
+    //     var sum = [];
+    //     for (var i = 0; i < 10; i++) {
+    //         arr[i] = Math.floor(Math.random() * (70 - 20));
+    //         sum[i] = arr[i]*5;
+    //         console.log(sum[i])
+    //     }
+    // }
+    // function makeArray() {
+    //     var arr = [];
+    //     var sum = [];
+    //     const ARR_SIZE = 10; // array size
+    //     for (var i = 0; i < ARR_SIZE; i++) {
+    //         arr[i] = Math.floor(Math.random() * (70 - 20));
+    //     }
+    //     for (var i = 0; i < ARR_SIZE; i++) {
+    //         sum[i] = arr[i] * 5;
+    //     }
+    //     console.log(arr);
+    //     console.log(sum);
+    // }
+    // makeArray()
+    // function makeArray() {
+    //     var arr = [100,250,50,168,120,345,188];
+    //     var sum = 0
+    //     for (var i = 0; i < arr.length; i++) {
+    //         sum += arr[i]/5;
+    //     }
+    //     console.log(sum)
+    // }
+    // makeArray()
+
+
+
+    // function makeArray(mas1, mas2, callback) {
+    //     var mas1 = [6, 11, 10, 22, 30];
+    //     mas2 = [20, 25, 15, 22, 30];
+    //     var sumMas = [];
+    //     for (var i = 0; i < mas1.length; i++) {
+    //         // sum += mas1[i]+mas2[i];
+    //         sumMas [i] = mas1[i] + mas2[i];;
+    //         var arrSum = mas1.concat(mas2);
+    //         arrSum.sort(function (a, b) {
+    //             return a - b;
+    //         });
+    //         var sum = arrSum.reduce(function (a, b) {
+    //             return a + b;
+    //         });
+    //         var arrFilter = arrSum.reduce(function(map,el){
+    //            if(!map[el]) map[el]=true;
+    //            return map;
+    //             callback(map);
+    //        },{});
+    //
+    //     }
+    //     console.log(sum);
+    //     console.log(sumMas);
+    //     console.log(arrSum);
+    //     console.log(arrFilter);
+    // }
+    //
+    // makeArray()
+
+    function callBackArray(array1, array2, callback) {
+        callback(array1, array2);
+    }
+
+    callBackArray([1,2,3,4,6], [6,7,8,9,10], function(array1, array2){
+        let sumMas = [];
+        for (let i = 0; i < array1.length; i++) {
+            sumMas [i] = array1[i] + array2[i];
+        }
+
+        let arrSum = array1.concat(array2);
+
+        console.log("before sort", arrSum);
+        arrSum.sort((a, b) => a - b);
+        console.log("after sort", arrSum);
+
+        let sum = arrSum.reduce((a, b) => a + b);
+        console.log("summ arrSym: ", sum);
+
+        let arrUnique = arrSum.filter(function(value, index, self){
+            return self.indexOf(value) === index;
+        });
+        console.log("arrUnique: ", arrUnique);
+    });
+</script>
+</body>
+</html>

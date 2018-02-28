@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01</title>
+</head>
+<body>
+<script src="main.js"></script>
+<script>
+
+    console.log("hello");
+    var a = 100;
+    var b = "100";
+    console.log(a, b);
+    c = 'oktenweb';
+    var mas = ["asd", true, 123, [], {}];
+    console.log(mas);
+    mas[100] = "hunbrt";
+    // console.log(d);
+    console.log(typeof NaN);
+    console.log([] / "asdaas");
+    var person = {
+        name: 'vasya',
+        age: 12
+    };
+    console.log(person.name);
+    console.log(person.age);
+    {
+        var inner1 = "inner111";
+        let inner2 = "inner111"
+    }
+    // console.log(inner1, inner2);
+    console.log(5 == "5");
+    true
+    // console.log(5 === "5"); false
+    // false "", 0, naull, undefinde, NaN
+    if ("asd") {
+        console.log("good")
+    } else {
+        console.log("bad");
+    }
+
+
+    console.log(!!"asadasd");
+    console.log(+"asadasd");
+
+
+    // let input = prompt("message");
+    // console.log(parseInt(input));
+    // alert("warning");
+    // let confirm = confirm("asasasa");
+    // console.log(confirm);
+
+     // var name = prompt("name?") || 'john';
+     // console.log(name);
+
+    for (let obj of mas) {
+        console.log(obj);
+    }
+    var  human = {
+        name: 'koko',
+        age: 34,
+        skills: ['java', 'js'],
+        wife:{
+            name: 'lolo',
+            age: 23
+        }
+    };
+  console.log(human.wife.age);
+    human.asd = "123";
+    console.log(human);
+    console.log()
+
+</script>
+</body>
+</html>
